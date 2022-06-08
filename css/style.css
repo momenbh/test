@@ -1,0 +1,189 @@
+/*global css*/
+/*Fonts link*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@
+	100;300;400;700;900&);
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+
+	font-family: 'Lato', sans-serif;
+         font-size: 16px;
+		 
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+/* Header section start*/
+header{
+	background-color: #f7f7f7;
+	padding: 10px;
+}
+/*Banner Section start*/
+.Baner-section{
+	background:url(../img/baner.png) no-repeat center;
+	background-size: cover;
+	
+}
+.Baner-section h1{
+	   padding-top: 100px;
+       font-size: 120px;
+       color: white;
+       text-align: center;
+       text-transform: uppercase;
+       letter-spacing: 1px;
+}
+/* Title border*/
+.title-border
+{
+	    border: 2px solid blue;
+        width: 50%;
+        margin: 0 auto
+}
+/*Title border end*/
+.Baner-section p
+{
+	 color: white;
+     font-size: 20px;
+     text-align: center;
+     padding-top: 20px
+
+}
+.btn-button
+{
+	border: 1px solid blue;
+    padding: 15px 35px;
+    background: transparent;
+    color: white;
+    display: block;
+    margin: 50px auto 75px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.btn-button:hover{
+	background-color: blue;
+	cursor: pointer;
+
+}
+.Baner-section .fa{
+	color: white;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+}
+/*End baner Section*/
+/* strat about sec*/
+.about-section{
+	background-color: #f6f9f9;
+	padding: 50px 0px;
+}
+.about-section h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 400;
+	padding: 20px;
+}
+.about-section p{
+	font-size: 20px;
+	text-align: center;
+	color: #999999;
+	line-height: 30px;
+}
+/*End about section*/
+/* Strart feature section*/
+.feture-section{
+	background-color: #FFFFFF;
+	padding: 100px 0px;
+}
+.flex-wrapper{
+	display: flex;
+}
+.feature-box{
+	flex-grow: 1;
+	justify-content: center;
+	text-align: center;
+	}
+	.feature-box img,
+	.feature-box h3{
+		padding-bottom: 15px;
+	}
+	.feature-box p{
+		    width: 86%;
+            margin: 0 auto;
+
+	}
+	/*protfolie start*/
+	.protfoli-section{
+		background-color: #f6f9f9;
+		padding: 100px 0px;
+		width: 100%;
+		float: left;
+	}
+	.protfoli-heading{
+
+		padding-bottom: 20px;
+        font-size: 20px;
+        text-align: center;
+
+	}
+	.protfoli-heading p{
+		color: #999999;
+	}
+	.protfoli{
+		margin-top: 50px;
+
+		
+	}
+	.protfoli-item {
+		float: left;
+       margin: 10px;
+       width: 30.5%;
+
+		}
+		.protfoli-item img{
+			width: 100%;
+			
+		}
+		/*protfolili end*/
+		/*contact section start*/
+		.contract-section{
+
+
+		}
+		/*Footer section start*/
+		footer{
+			background-color: #f6f9f9;
+			padding: 20px auto;
+			width: 100%;
+		    float: left;
+		}
+		.footer-left{
+			width: 50%;
+			float: left;
+		}
+		.footer-right{
+			width: 50%;
+			float: left;
+			
+			
+		}
+		/* Media query for mobile*/
+		@media(min-width: 320px) and (max-width: 500px){
+			.container{
+				width: 100%;
+			}
+
+		}
+		/* Media query for tablet*/
+		@media(min-width: 320px) and (max-width: 500px){
+			.container{
+				width: 100%;
+			}
+
+		}
+
+	
